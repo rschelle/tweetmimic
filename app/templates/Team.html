@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Our Team">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Team</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/nicepage.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/Team.css') }}" media="screen">
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='nicepage.js') }}" defer=""></script>
+    <meta name="generator" content="Nicepage 3.20.4, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Anton:400">
+    
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/715017264361111563/867831963326218280/TweetGeneratorLogo.png">
+
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/default-logo.png",
+		"sameAs": [
+				"https://twitter.com/oxfordaicamp"
+		]
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Team">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-9a5b"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://www.ai-camp.org/" class="u-image u-logo u-image-1" data-image-width="80" data-image-height="40">
+          <img src="{{ url_for('static', filename='images/aicamplogo250.jpg') }}" class="u-logo-image u-logo-image-1" data-image-width="73">
+        </a>
+        <nav class="u-align-left u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem;">
+            <a class="u-button-style u-nav-link" href="#">
+              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8a8f"></use></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-8a8f" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('home')}}" style="padding: 10px 6px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('results')}}" style="padding: 10px 6px;">Tweet Mimic</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{ url_for('team') }}" style="padding: 10px 6px;">Team</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('home')}}" style="padding: 10px 6px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('results')}}"  style="padding: 10px 6px;">Tweet Mimic$$</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href= "{{url_for('team')}}" style="padding: 10px 6px;">Team</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <div class="u-social-icons u-spacing-10 u-social-icons-1">
+          <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/oxfordaicamp"><span class="u-icon u-social-icon u-social-twitter u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-bece"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-bece"><circle fill="currentColor" class="st0" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M83.8,47.3c0,0.6,0,1.2,0,1.7c0,17.7-13.5,38.2-38.2,38.2C38,87.2,31,85,25,81.2c1,0.1,2.1,0.2,3.2,0.2
+            c6.3,0,12.1-2.1,16.7-5.7c-5.9-0.1-10.8-4-12.5-9.3c0.8,0.2,1.7,0.2,2.5,0.2c1.2,0,2.4-0.2,3.5-0.5c-6.1-1.2-10.8-6.7-10.8-13.1
+            c0-0.1,0-0.1,0-0.2c1.8,1,3.9,1.6,6.1,1.7c-3.6-2.4-6-6.5-6-11.2c0-2.5,0.7-4.8,1.8-6.7c6.6,8.1,16.5,13.5,27.6,14
+            c-0.2-1-0.3-2-0.3-3.1c0-7.4,6-13.4,13.4-13.4c3.9,0,7.3,1.6,9.8,4.2c3.1-0.6,5.9-1.7,8.5-3.3c-1,3.1-3.1,5.8-5.9,7.4
+            c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"></path></svg></span>
+          </a>
+        </div>
+      </div></header>
+    <section class="u-align-center u-clearfix u-custom-color-8 u-section-1" id="carousel_1af7">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-custom-font u-text u-text-default u-text-1">Our Team</h1>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round u-white u-list-item-1">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <img src="{{ url_for('static', filename='images/KosiProfile.jpeg') }}" class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" />
+                <h3 class="u-align-center-xl u-custom-font u-font-oswald u-text u-text-default u-text-2">Kosi Okaro</h3>
+                <p class="u-align-center-xl u-text u-text-default u-text-palette-2-base u-text-3">Student</p>
+                <p class="u-align-center-xl u-text u-text-body-color u-text-4">Hi, I am a rising Junior in high school, and I predominantly worked on the Web Design aspects of our project. Perfecting the HTML and CSS were feverish tasks, as well as communicating as our Project Manager. I am also an active member of my school's dance team, volleyball player, and President of my school's branch of GirlsWhoCode.</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round u-white u-list-item-2">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <img src="{{ url_for('static', filename='images/JasperProfile.png') }}" class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" />
+                <h3 class="u-align-center-xl u-custom-font u-font-oswald u-text u-text-default u-text-5">Jasper Shen</h3>
+                <p class="u-align-center-xl u-text u-text-default u-text-palette-2-base u-text-6">Student</p>
+                <p class="u-align-center-xl u-text u-text-body-color u-text-7">Hello! I'm a rising junior of Mountain Vista High School. I love coding, when it actually works, and playing video games. During this project, I assisted in the agonizing use of Twitter's API to scrape tweets, cleaning up of the website, and insanity-invoking debugging.</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round u-white u-list-item-3">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <img src="{{ url_for('static', filename='images/MaxLProfile.png') }}" class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" />
+                <h3 class="u-align-center-xl u-custom-font u-font-oswald u-text u-text-default u-text-8">Max Lu</h3>
+                <p class="u-align-center-xl u-text u-text-default u-text-palette-2-base u-text-9">Student</p>
+                <p class="u-align-center-xl u-text u-text-body-color u-text-10">Hi! I'm 15 and a rising sophomore in high school. My hobbies include chess, debate, traveling, and I am an avid follower of current events. I assisted on various components of the project, most notably scraping tweets from the Twitter API and setting up Flask to integrate JavaScript and Python. I also wrote the description of the project steps outlined on this website.</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round u-white u-list-item-4">
+              <div class="u-container-layout u-similar-container u-container-layout-4">
+                <img src="{{ url_for('static', filename='images/MaxIProfile.jpg') }}" class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" />
+                <h3 class="u-align-center-xl u-custom-font u-font-oswald u-text u-text-default u-text-11">Max Inoue</h3>
+                <p class="u-align-center-xl u-text u-text-default u-text-palette-2-base u-text-12">Student</p>
+                <p class="u-align-center-xl u-text u-text-body-color u-text-13">Hello! My name is Max Inoue and I am a rising junior at Bard High School Early College Queens in Long Island City, NY. My hobbies include various video games as well as some sports and hanging out with my friends. For this project, I helped clean data and train the deep learning models that made this generator possible!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-custom-color-8 u-section-2" id="carousel_3e67">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round u-white u-list-item-1">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                <img src="{{ url_for('static', filename='images/MaxMProfile.jpg') }}" class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" />
+                <h3 class="u-align-center-xl u-custom-font u-font-oswald u-text u-text-default u-text-1">Max Maiers</h3>
+                <p class="u-align-center-xl u-text u-text-default u-text-palette-2-base u-text-2">Student</p>
+                <p class="u-align-center-xl u-text u-text-body-color u-text-3">I am a Freshman at Lane Tech High School in Chicago, IL.  I enjoy playing soccer, video games, and chess.  I mainly helped by cleaning data with python for the AI to train on and helped linking the backend and frontend together.</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round u-white u-list-item-2">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                <img src="{{ url_for('static', filename='images/ShriyaProfile.jpg') }}" class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" />
+                <h3 class="u-align-center-xl u-custom-font u-font-oswald u-text u-text-default u-text-4">Shriya Chakraborti</h3>
+                <p class="u-align-center-xl u-text u-text-default u-text-palette-2-base u-text-5">Student</p>
+                <p class="u-align-center-xl u-text u-text-body-color u-text-6">Hi! I'm a rising sophomore in high school. My hobbies include reading, chess, badminton, and hanging out with family and friends. I predominantly worked on the HTML code for the site, data collection process, presentations, group Twitter account, and helped wherever I could. :)</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round u-white u-list-item-3">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                <img src="{{ url_for('static', filename='images/RobertProfile.jpg') }}" class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" />
+                <h3 class="u-align-center-xl u-custom-font u-font-oswald u-text u-text-default u-text-7">Robert Schellenberger</h3>
+                <p class="u-align-center-xl u-text u-text-default u-text-palette-2-base u-text-8">Teaching Assistant</p>
+                <p class="u-align-center-xl u-text u-text-body-color u-text-9">I am a rising senior at Rice University in Houston, TX. In addition to playing soccer and video games in my free time, I recently started learning how to cook! I helped guide and educate the students towards getting a finished product!</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-radius-17 u-repeater-item u-shape-round u-white u-list-item-4">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+                <img src="{{ url_for('static', filename='images/AlexProfile.jpg') }}" class="u-image u-image-circle u-image-2" data-image-width="626" data-image-height="417" />
+                <h3 class="u-align-center-xl u-custom-font u-font-oswald u-text u-text-default u-text-10">Alex Duffy</h3>
+                <p class="u-align-center-xl u-text u-text-default u-text-palette-2-base u-text-11">Instructor</p>
+                <p class="u-align-center-xl u-text u-text-body-color u-text-12">I am Head of Product at AI-Camp and before that was a data and analytics consultant. I grew up in Northern Virginia with a French mom and dad from Pittsburgh. I love all things machine learning, education, and have recently been diving into virtual reality!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-f285"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
+  </body>
+</html>
